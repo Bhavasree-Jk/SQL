@@ -21,7 +21,8 @@ class Solution {
      if(root==null) return true;
         leftR(root.left);
         rightR(root.right);
-      
+        System.out.print(list1);
+        System.out.print(list2);
 
  if(list1.equals(list2)) return true;
  return false;
