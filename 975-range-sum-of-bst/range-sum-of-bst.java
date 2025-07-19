@@ -27,7 +27,7 @@ class Solution {
         }
         else if(root.val<=high&&root.val>=low){
             sum+=root.val;
-            System.out.print(sum);
+         
         }
        
         range(root.left,low,high);
