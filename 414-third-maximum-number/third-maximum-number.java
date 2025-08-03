@@ -13,7 +13,7 @@ class Solution {
     }
    
     if(arr.length==1) return arr[0];
-     if(arr.length<3){
+     if(arr.length==2){
             if(arr[0]>arr[1]){
                 return arr[0];
             }
