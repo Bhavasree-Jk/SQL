@@ -11,9 +11,7 @@ class Solution {
         arr[k]=i;
         k++;
     }
-    for(int i=0;i<set.size();i++){
-    System.out.print(arr[i]);
-    }
+   
     if(arr.length==1) return arr[0];
      if(arr.length<3){
             if(arr[0]>arr[1]){
