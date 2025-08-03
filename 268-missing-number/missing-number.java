@@ -5,7 +5,7 @@ class Solution {
             return 1;
         }
         else{
-            return nums[0]-1;
+            return 0;
         }
     }
         
