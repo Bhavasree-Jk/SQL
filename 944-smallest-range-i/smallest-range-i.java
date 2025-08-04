@@ -14,7 +14,7 @@ class Solution {
         int ans1=min+k;
         int ans2=max-k;
         int res=ans2-ans1;
-      //  System.out.print(ans);
+     
         if(res<0){
             return 0;
         }
