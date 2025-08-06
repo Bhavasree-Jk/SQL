@@ -9,8 +9,7 @@ class Solution {
         sum2+=(int)t.charAt(i);
        
     }
-      //System.out.println(sum1);
-      //  System.out.println(sum2);
+    
     int ans=sum2-sum1;
     char ch=(char)ans;
    
