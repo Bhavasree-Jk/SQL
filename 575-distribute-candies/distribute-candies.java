@@ -14,7 +14,7 @@ class Solution {
     list.add(map.get(i));
   }
 Collections.sort(list);
-Collections.reverse(list);
+//Collections.reverse(list);
 int count=0;
 for(int i : list){
     count++;
