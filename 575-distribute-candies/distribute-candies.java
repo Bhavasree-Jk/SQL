@@ -13,7 +13,7 @@ class Solution {
   for(int i : map.keySet()){
     list.add(map.get(i));
   }
-Collections.sort(list);
+//Collections.sort(list);
 //Collections.reverse(list);
 int count=0;
 for(int i : list){
