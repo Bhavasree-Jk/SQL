@@ -23,7 +23,7 @@ for(int i : list){
     }
 }
 
-  System.out.print(list);
+  
     return count;
     }
 }
