@@ -4,11 +4,8 @@ class Solution {
     for(int i : s){
         list.add(i);
     }
-    Collections.sort(list);
-    if(list.size()==2){
-        return list.get(1)-list.get(0);
-    }
    
+  
   while(list.size()>2){
       Collections.sort(list);
      
