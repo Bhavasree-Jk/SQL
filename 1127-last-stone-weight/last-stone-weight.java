@@ -4,16 +4,17 @@ class Solution {
     for(int i : s){
         list.add(i);
     }
-   
+    if(list.size()==2){
+    int res=Math.abs(list.get(0)-list.get(1));
+    return res;
+   }
   
   while(list.size()>2){
       Collections.sort(list);
      
     int a=list.get(list.size()-1);
     int b=list.get(list.size()-2);
-   // System.out.print(a);
-  //  System.out.print(b);
-  //  System.out.println();
+   
     if(a==b){
         list.remove((list.size()-1));
         list.remove((list.size()-1));
