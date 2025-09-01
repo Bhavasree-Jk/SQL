@@ -18,9 +18,7 @@ class Solution {
             list3.add(items.get(i).get(2));
             }
           
-    System.out.print(list1);
-    System.out.print(list2);
-    System.out.print(list3);
+    
 
     int count=0;
     if(ruleKey.equals("type")){
