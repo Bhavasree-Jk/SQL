@@ -27,8 +27,7 @@ class Solution {
       
 
     }
-System.out.print(map);
-System.out.print(map1);
+
 
  if(map1.size()!=map.size()) return 0;
  
