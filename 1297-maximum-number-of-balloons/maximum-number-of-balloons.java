@@ -25,18 +25,13 @@ class Solution {
     }
   
 if(map1.size()!=map2.size()) return 0;
-int ans=0;
-ArrayList<Integer> list=new ArrayList<>();
-for(char c:map1.keySet()){
- list.add(map2.get(c)/map1.get(c));
- 
- 
-}
+
 int min=Integer.MAX_VALUE;
-for(int i : list){
-    if(i<min){
-        min=i;
-    }
+
+for(char c:map1.keySet()){
+min=Math.min(min,map2.get(c)/map1.get(c));
+ 
+ 
 }
 
     return min;
