@@ -7,6 +7,7 @@ class Solution {
            for(int j=0;j<s[i].length();j++){
             if(b.contains(s[i].charAt(j)+"")){
                 val=false;
+                break;
             }
            }
            if(val){
